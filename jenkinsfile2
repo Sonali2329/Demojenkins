@@ -15,7 +15,7 @@ pipeline{
         }
         stage("run multiple command"){
             steps{
-                esh '''pwd
+                sh '''pwd
                     date
                     ls
                     cat'''
